@@ -1,0 +1,35 @@
+
+/*Old standar TT*/
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+//font-family
+//font-family: 'Old Standard TT', serif;
+
+
+/*Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+//font-family
+//font-family: 'Raleway', sans-serif;
+
+.texto-primario{
+    font-family: 'Old Standard TT', serif;
+    font-weight: $bold;
+    font-size: $xxx-large;
+}
+
+.texto-secundario{
+    font-family: 'Old Standard TT', serif;
+    font-weight: $regular;
+    font-size: $xx-large; 
+}
+
+.texto-p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: $regular;
+    font-size: $large; 
+}
+
+.texto-li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: $bold;
+    font-size: $x-large; 
+}

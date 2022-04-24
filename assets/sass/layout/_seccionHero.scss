@@ -1,0 +1,17 @@
+
+.miHero{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.divx{
+    grid-row: 1/2;
+}
+
+.divy{
+    grid-row: 2/3;
+}
+
+.divz{
+    grid-column: 1 /3
+}
