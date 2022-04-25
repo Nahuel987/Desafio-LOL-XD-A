@@ -1,0 +1,22 @@
+/*input*/
+
+input {
+
+    width: 280px;
+    border: 2px solid $isabeline;
+
+    ::placeholder {
+        color: $quickSilver;
+    }
+
+}
+
+/*Modificando contorno*/
+
+input[type=text]:focus {
+    /*contorno*/
+    outline-color: $isabeline;
+
+    /*borde interno*/
+    border: 1.5px outset $isabeline;
+}

@@ -1,0 +1,35 @@
+/*Fuentes*/
+
+/*Old Standard*/
+@mixin oldBold ($tamañoFuente) {
+    font-family: 'Old Standard TT', serif;
+    font-weight: $bold;
+    src: url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+    font-size: $tamañoFuente;
+
+}
+
+@mixin oldRegular ($tamañoFuente) {
+font-family: 'Old Standard TT', serif;
+font-weight: $regular;
+src: url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+font-size: $tamañoFuente;
+
+}
+
+/*Raleway*/
+@mixin ralewayBold ($tamañoFuente) {
+font-family: 'Raleway', sans-serif;
+font-weight: $bold;
+src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+font-size: $tamañoFuente;
+
+}
+
+@mixin ralewayRegular ($tamañoFuente) {
+font-family: 'Raleway', sans-serif;
+font-weight: $regular;
+src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+font-size: $tamañoFuente;
+
+}

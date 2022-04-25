@@ -1,17 +1,100 @@
-
-.miHero{
+.miHero {
     display: grid;
     grid-template-columns: auto auto;
 }
 
-.divx{
+/*layout grid*/
+
+.divx {
+    grid-column: 1 /2;
     grid-row: 1/2;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.divy{
+
+.divy {
+    grid-column: 1 /2;
     grid-row: 2/3;
+    width: 100%;
 }
 
-.divz{
-    grid-column: 1 /3
+.divz {
+    grid-column: 2 /3;
+    grid-row: 1/3;
+    width: 100%;
 }
+
+/*estilizando componentes*/
+
+.divxx {
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dixx h1,
+p,
+button {
+    margin-bottom: 25px;
+}
+
+.contenedor {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 98.5%;
+}
+
+.divy1 {
+
+    background-color: $smokyBlack;
+    // background-color: blue;
+    width: 55%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.divy2 {
+    width: 10%;
+    height: 30%;
+    text-align: center;
+    /*girar divy2*/
+    transform: rotate(90deg);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.divy1 label,
+input {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.divy1 h1 {
+    margin-bottom: 18px;
+}
+
+.miImg {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 92.5vh;
+}
+
+.negro {
+    padding: 0;
+    margin: 0;
+    background-color: $smokyBlack;
+    width: 100%;
+    height: 100%;
+}
+

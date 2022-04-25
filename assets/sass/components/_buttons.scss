@@ -1,15 +1,20 @@
-
-.miBtn{
-    background-color: transparent;
+.miBtn {
+    background-color: $withe;
     color: $smokyBlack;
-    font-size: $x-large;
+    border: 2px solid $smokyBlack;
+    padding: 10px;
+    width: 150px;
 }
 
-.miBtn:hover{
+.miBtn:hover {
     border-color: $isabeline;
+
 }
 
-.miBtn:focus{
+.miBtn:focus {
     color: $isabeline;
+    border-color: $isabeline;
+    /*box-shadow: $isabeline;*/
+
 }
 
