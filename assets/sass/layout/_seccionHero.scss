@@ -61,22 +61,28 @@ button {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+        
 }
 
 .divy2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10%;
     height: 30%;
-    text-align: center;
     /*girar divy2*/
     transform: rotate(90deg);
-    margin-top: auto;
-    margin-bottom: auto;
+  
+ 
 }
+
+
 
 .divy1 label,
 input {
     display: block;
     margin-bottom: 3px;
+    
 }
 
 .divy1 h1 {
@@ -91,6 +97,8 @@ input {
 }
 
 .negro {
+    display: flex;
+    align-items: center;
     padding: 0;
     margin: 0;
     background-color: $smokyBlack;
