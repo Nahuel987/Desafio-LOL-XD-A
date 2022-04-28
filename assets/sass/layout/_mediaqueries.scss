@@ -1,0 +1,39 @@
+
+
+@media screen and (max-width: 991.98px) { 
+
+    .miHero{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .divz{
+        grid-column:1/2;
+        grid-row: 1/2;
+        height: 50%;
+        
+    }
+
+    .divx{
+        grid-column:1/2;
+        grid-row: 2/3;
+    }
+
+    .divy{
+        grid-column:1/2;
+        grid-row: 3/4;
+        
+    }
+
+    .miBtn{
+        margin-bottom: 80px;
+    }
+
+    // .miImg{
+    //     height:;
+    // }
+
+    .contenedor{
+        height: 100;
+    }
+ }
