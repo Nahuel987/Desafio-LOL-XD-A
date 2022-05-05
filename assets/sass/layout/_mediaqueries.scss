@@ -1,6 +1,12 @@
 
 
+
+//medidas tablet segun bootsrap
 @media screen and (max-width: 991.98px) { 
+
+    .miNav{
+        margin-bottom: -160px;
+    }
 
     .miHero{
         display: grid;
@@ -10,13 +16,22 @@
     .divz{
         grid-column:1/2;
         grid-row: 1/2;
-        height: 50%;
-        
+        //height: auto;
+     
+    }
+    
+    .miImg{
+     clip-path: inset(18% 0 35% 0);   
     }
 
     .divx{
         grid-column:1/2;
         grid-row: 2/3;
+        margin-top: -310px;
+    }
+
+    .cortaLinea{
+        display: none;
     }
 
     .divy{
@@ -26,14 +41,18 @@
     }
 
     .miBtn{
-        margin-bottom: 80px;
+        margin-bottom: 70px;
     }
-
-    // .miImg{
-    //     height:;
-    // }
-
+ 
     .contenedor{
-        height: 100;
+        height: 30vh;
     }
+
+    .miIn{
+        width: 500px;
+    }
+
  }
+
+
+ 
