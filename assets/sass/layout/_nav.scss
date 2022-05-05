@@ -1,34 +1,38 @@
-.miNav{
+.miNav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-   height: 100%;
+    height: 100%;
 }
 
-.navLogo{
-        padding-left: 30px;
+.navLogo {
+    padding-left: 30px;
     padding-right: 30px;
     background-color: $smokyBlack;
     @include oldBold($x-large);
-    color:$withe;
+    color: $withe;
 }
 
-.nav-ul{
+.nav-ul {
     list-style: none;
     display: flex;
     margin-right: 50px;
 }
-.nav-li{
+
+.nav-li {
     padding-inline: 25px;
 }
 
-a{
+a {
     text-decoration: none;
     color: $smokyBlack;
 }
 
-a:hover{
+a:hover {
     color: $lightGray;
 }
 
+.hamburgesa{
+    display: none;
+}
